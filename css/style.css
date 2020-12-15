@@ -1,0 +1,22 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    background-color: rgb(230, 230, 230);
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(230, 230, 230);
+}
+
+.footer { 
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    background-color: rgb(230, 230, 230);
+}
