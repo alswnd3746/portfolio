@@ -22,7 +22,7 @@
 
 <body>
     <header class="header position-relative text-center">
-        <nav class="header-nav container py-5">
+        <nav class="header-nav container py-5 px-4 px-md-5">
             <div class="row">
                 <div class="d-flex justify-content-between align-middle">
                     <div class="header-nav-title fw-bold">M I N J O O N G</div>
@@ -32,55 +32,58 @@
         </nav>
         <div class="container">
             <div class="row">
-                <h1 class="header-title fw-bold">Lorem ipsum dolor sit amet consectetur</h1>
-                <h4 class="header-title--sub">Lorem ipsum dolor sit amet.</h4>
+                <h2 class="header-title fw-bold pb-3">간결하고 가독성있는 코드를 지향하는 프론트엔드, 김민중입니다.</h2>
+                <h5 class="header-title--sub fw-light">I'm Frontend Developer</h5>
             </div>
         </div>
-        <img src="http://placehold.it/200x200" class="header-profile--image position-relative rounded-circle"
-            alt="profile_image">
+        <div class="header-profile--image position-relative rounded-circle"></div>        
     </header>
 
-    <main class="main position-relative">
-        <!-- 나에 대한 소개 :: 기술 스탯 및 간단한 소개 -->
+    <main class="main position-relative">        
         <section class="about container text-center">
             <div class="row">
                 <h2 class="about-title fw-bold">ABOUT</h2>
-                <h5 class="about-title-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, vel.</h5>
+                <p class="about-title-sub fw-light">Design 2 Years + Develop 6 Month = 2.6 Years Experience Working</p>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <img src="http://placehold.it/500x500" class="about-profile img-fluid" alt="about_profile">
+                </div>
+                <div class="col-12 col-xl-6 text-start">
+                    <h2 class="pb-3 fw-bold lh-base">안녕하세요. 중고신입 프론트엔드 개발자 지망생, 김민중입니다.</h2>
+                    <p class="pb-3">
+                        웹디자이너로 2년간 디자인과 퍼블리싱을 작업하고 6개월간 프론트엔드 작업을 했습니다. 
+                        <br>빠르고 효율적인 웹 제작을 선호하며 다양한 경험과 최신 기술 트렌드에 대해 관심을 가지고 있습니다.
+                        <br>디자인과 개발 경험을 가지고 있어 디자인으로 인한 개발의 문제점과 개발로 인한 디자인의 문제점에 대해 이해할 수 있습니다.
+                    </p>                    
+                    <h5 class="fw-bold">HTML & CSS</h5>
+                    <div class="progress">                                                
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-mint" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                    <h5 class="fw-bold">Javascript / ES6</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-mint" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                            aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                    <h5 class="fw-bold">Framework(React, Vue, ETC...)</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-mint" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                    <h5 class="fw-bold">Design(UI/UX, PS, AI)</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-mint" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                            aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- 어떤 기술을 구현했었는지 소개 :: 웹디자인, 퍼블리싱, 프론트엔드 등 -->
         <section class="service container text-center">
-            <div class="row">
-                <div class="col-12 col-xl-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nobis?</div>
-                <div class="col-12 col-xl-6 d-flex justify-content-around">
-                    <div>
-                        <div class="progress p-html">
-                            <span class="progress-left"><span class="progress-bar"></span></span> 
-                            <span class="progress-right"><span class="progress-bar"></span></span>
-                            <div class="progress-value">90%</div>
-                        </div>
-                        <p class="progress-title">HTML</p>
-                    </div>
 
-                    <div>
-                        <div class="progress p-css">
-                            <span class="progress-left"><span class="progress-bar"></span></span>
-                            <span class="progress-right"><span class="progress-bar"></span></span>
-                            <div class="progress-value">90%</div>
-                        </div>
-                        <p class="progress-title">CSS</p>
-                    </div>
-                    <div>
-                        <div class="progress p-js">
-                            <span class="progress-left"><span class="progress-bar"></span></span>
-                            <span class="progress-right"><span class="progress-bar"></span></span>
-                            <div class="progress-value">50%</div>
-                        </div>
-                        <p class="progress-title">JS</p>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <!-- 현재 진행중인 작업 및 작업물들 -->
