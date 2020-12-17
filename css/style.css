@@ -1,7 +1,11 @@
 * {
     font-family: 'Roboto', 'Noto Sans KR', sans-serif;
     word-break: keep-all;
-    letter-spacing: -0.7px;   
+    letter-spacing: -0.7px;    
+}
+
+*:focus {
+    outline: none;
 }
 
 /* NAVBAR */
@@ -11,25 +15,24 @@
     pointer-events: none;
     list-style: none;
     top: 7rem;
-    right: 3.3rem;
-    font-size: 1.2rem;
-    font-weight: 400;
+    right: 3.35rem;
+    font-size: 1rem;
+    font-weight: 700;
     z-index: 1060;
     padding: 0;
     margin: 0;
 }
 
 .header-nav ul li {    
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 0.9em 0;
+    text-transform: uppercase;    
+    padding: 1.5em 0;
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
     writing-mode: vertical-lr;     
 }
 
 .header-nav ul li a {
-    color: #313131;
+    color: #4b4b4b;
     list-style: none;
     text-decoration: none;
     -webkit-transition: color 0.15s;
@@ -37,8 +40,7 @@
 }
 
 .header-nav ul li a:hover {
-    color: rgb(68, 230, 176);
-    font-weight: 500;
+    color: rgb(68, 230, 176);    
 }
 
 .header-nav.active ul {
@@ -190,6 +192,21 @@
     padding-bottom: 5rem;
 }
 
+/* PORTFOLIO */
+.portfolio {
+    background-color:rgb(251, 251, 251);
+    padding-bottom: 10rem;
+}
+
+.portfolio-title {
+    padding-top: 10rem;
+}
+
+.portfolio-title-sub {
+    color:rgb(116, 116, 116);
+    padding-bottom: 5rem;
+}
+
 /* FOOTER */
 .footer {     
     display: block;
@@ -198,7 +215,9 @@
     background-color: rgb(230, 230, 230);
 }
 
-/* Medium devices (tablets, 768px and up) */
+
+
+/* Medium Query */
 @media (max-width: 768px) {
     .header {
         padding-top: 0;
