@@ -12,8 +12,8 @@
     list-style: none;
     top: 7rem;
     right: 3.3rem;
-    font-size: 1.1rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 400;
     z-index: 1060;
     padding: 0;
     margin: 0;
@@ -38,6 +38,7 @@
 
 .header-nav ul li a:hover {
     color: rgb(68, 230, 176);
+    font-weight: 500;
 }
 
 .header-nav.active ul {
@@ -195,4 +196,26 @@
     width: 100%;
     height: 300px; 
     background-color: rgb(230, 230, 230);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .header {
+        padding-top: 0;
+    }    
+
+    .about-title {
+        padding-top: 13rem;
+    }
+
+    .about-title-sub {
+        padding-bottom: 3rem;
+    }
+
+    .header-profile--image {    
+        width: 11rem;
+        height: 11rem;        
+        top: 80px;        
+        border: 5px solid  rgb(251, 251, 251);        
+    }
 }
