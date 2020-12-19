@@ -176,6 +176,22 @@
     background-color: rgb(68, 230, 176);
 }
 
+.bg-design {
+    background-color: #B32452;
+}
+
+.bg-publishing {
+    background-color: #E98580;
+}
+
+.bg-frontend {
+    background-color: #2494B3;   
+}
+
+.text-mint {
+    color:rgb(42, 196, 144);
+}
+
 /* SERVICE */
 
 .service {
@@ -206,6 +222,11 @@
     color:rgb(116, 116, 116);
     padding-bottom: 5rem;
 }
+
+.focoo-bg { width: 200px; height: 300px; background: url('/image/focoo_bg.png') no-repeat top center; background-size: cover; }
+.daon-bg { width: 200px; height: 300px; background: url('/image/daon_bg.png') no-repeat top center; background-size: cover; }
+.baper-bg { width: 200px; height: 300px; background: url('/image/baper_bg.png') no-repeat top center; background-size: cover; }
+.blockchain-bg { width: 200px; height: 300px; background: url('/image/blockchain_bg.png') no-repeat top center; background-size: cover; }
 
 /* FOOTER */
 .footer {     
