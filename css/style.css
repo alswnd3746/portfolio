@@ -196,11 +196,11 @@
 
 .service {
     background-color:rgb(251, 251, 251);
-    padding-bottom: 11rem;
+    padding-bottom: 7rem;
 }
 
 .service-title {
-    padding-top: 10rem;
+    padding-top: 7rem;
 }
 
 .service-title-sub {
@@ -209,13 +209,13 @@
 }
 
 /* PORTFOLIO */
-.portfolio {
-    background-color:rgb(251, 251, 251);
-    padding-bottom: 10rem;
+.portfolio {    
+    background-color:rgb(251, 251, 251);    
+    padding-bottom: 7rem;
 }
 
 .portfolio-title {
-    padding-top: 10rem;
+    padding-top: 7rem;
 }
 
 .portfolio-title-sub {
@@ -228,17 +228,34 @@
 .baper-bg { width: 200px; height: 300px; background: url('/image/baper_bg.png') no-repeat top center; background-size: cover; }
 .blockchain-bg { width: 200px; height: 300px; background: url('/image/blockchain_bg.png') no-repeat top center; background-size: cover; }
 
-/* FOOTER */
+/* CONTACT(FOOTER) */
 .footer {     
-    display: block;
-    width: 100%;
-    height: 300px; 
-    background-color: rgb(230, 230, 230);
+    display: block;    
 }
 
+.contact-title {
+    padding-top: 3rem;
+}
 
+.contact_icon {
+    margin: 0.3rem 0.5rem;
+}
+
+.reserved-text {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color:rgb(116, 116, 116);
+    padding-bottom: 3rem;
+}
 
 /* Medium Query */
+@media (max-width: 991px) {
+    .header-nav ul {
+        top: 4.8rem;
+        right: 1.85rem;
+    }
+}
+
 @media (max-width: 768px) {
     .header {
         padding-top: 0;
@@ -250,6 +267,18 @@
 
     .about-title-sub {
         padding-bottom: 3rem;
+    }
+
+    .about,
+    .service,
+    .portfolio {
+        padding-bottom: 4rem;
+    }
+
+    .about-title-sub,
+    .service-title-sub,
+    .portfolio-title-sub {
+        padding-bottom: 2rem;
     }
 
     .header-profile--image {    
